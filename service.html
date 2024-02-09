@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>responsive services page section</title>
+</head>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<style type="text/css">
+		
+		header{
+			width: 100%;
+			height: 70px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.logo{
+			font-size: 30px;
+			font-weight: bold;
+			color: white;
+			letter-spacing: 1.5px;
+			cursor: pointer;
+		}
+		nav li{
+			display: inline-block;
+			padding: 0px 20px;
+		}
+		a,button{
+			text-decoration: none;
+			color: white;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		button{
+			background-color: rgba(0, 0, 0, 0.2);
+			border: 2px solid #662900;
+			border border-radius: 50px;
+			padding: 9px 25px;
+
+		}
+		nav li a:hover{
+			color:#662900;
+		}
+		button:hover{
+			background-color: #662900;
+		}
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing:border-box; 
+		font-family: sans-serif;
+	}
+	body{
+		width: 100%;
+		background-color: #809faa;
+	}
+	.title h1{
+		text-align: center;
+		padding-top: 50px;
+		font-size: 42px;
+	}
+	.title h1::after{
+		content:"";
+		height: 4px;
+		width: 230px;
+		background-color: #000;
+		display: block;
+		margin: auto; 
+	}
+	.Services{
+		width: 85%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 75px auto;
+		text-align: center;
+	}
+	.card{
+		width: 100%;
+		display: flex;
+		justify-content:space-between;
+		align-items: center;
+		flex-direction: column;
+		margin: 0px 20px;
+		padding: 20px 20px;
+		background-color: #efefef;
+		border-radius: 10px;
+		cursor: pointer; 
+	}
+	.card:hover{
+		background-color: #b8d4de;
+		transition: 0.4s ease;
+	}
+	.card .icon{
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	.card h2{
+		font-size: 28px;
+		color: #c94f4f;
+		margin-bottom: 20px;
+	}
+	.card p{
+		font-size: 17px;
+		margin-bottom: 30px;
+		line-height: 1.5;
+		color: #5e5e5e;
+
+	}
+	.button{
+		font-size: 15px;
+		text-decoration: none;
+		background-color: #2c667c;
+		color: #fff;
+		padding: 8px 12px;
+		border-radius: 5px;
+		letter-spacing: 1px;
+	}
+	.button:hover{
+		background-color: #c94f4f;
+		transition: 0.4s ease;
+	}
+</style>
+<body>
+	<header>
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="doctor.HTML">Home </a></li>
+					<li><a href="about.html ">About</a></li>
+					<li><a href="service.html">services </a></li>
+				
+					<li><a href="contect form2.html">contect</a></li>
+				</ul>
+			</nav>
+			<button><a href="APPINTMENT.HTML">Appointment</a></button>
+					
+		</header>
+
+<div class="section">
+	<div class="title">
+		<h1>Our Services</h1>
+	</div>
+	<div class="Services">
+		<div class="card">
+			<div class="icon">
+				<i class="fa-solid fa-id-card-clip"></i>
+				
+			</div>
+			<h2>CONSULTING</h2>
+			<p>We offer strategic consulting and advisory services to organizations and simulation programs to expand, evolve their current strategies, and advance their quality and safety agenda..</p>
+			<a href="" class="button">Read More</a>
+		</div>
+		<div class="card">
+			<div class="icon">
+				<i class="fa-solid fa-school"></i>
+				
+			</div>
+			<h2>EDUCATION</h2>
+			<p>We tailor educational offerings to your organization’s need. Courses are interactive and designed to build your team’s capacity, both frontline staff and trainers..</p>
+			<a href="" class="button">Read More</a>
+		</div>
+		<div class="card">
+			<div class="icon">
+				<i class="fas fa-handshake"></i>
+				
+			</div>
+			<h2>SYSTEM EVULATE</h2>
+			<p>Optimize physical clinical work spaces, tasks, teamwork, staff deployment, and clinical processes to improve patient and staff safety, and clinical outcomes..</p>
+			<a href="" class="button">Read More</a>
+		</div>
+	</div>
+</div>
+</body>
+</html>

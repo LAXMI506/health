@@ -1,0 +1,148 @@
+<html>
+<head>
+	<title> my web</title>
+	<style type="text/css">
+     body{
+     	background-image: url("https://media.istockphoto.com/id/931243158/photo/look-there-portrait-of-confident-experienced-qualified-cheerful-smiling-with-blonde-hair.jpg?s=612x612&w=0&k=20&c=E_aH_LbWcFPPfU9zmgyYAbbdI7wDnWh0YxhbKly0ido=");
+     	background-size: cover;
+     	justify-content: center;
+     	align-items: center;
+     
+     }
+     header{
+			width: 100%;
+			height: 70px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background-color: rgba(0, 0, 0, 0.2);
+		}
+		.logo{
+			font-size: 30px;
+			font-weight: bold;
+			color: white;
+			letter-spacing: 1.5px;
+			cursor: pointer;
+		}
+		nav li{
+			display: inline-block;
+			padding: 0px 20px;
+		}
+		a,button{
+			text-decoration: none;
+			color: white;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		button{
+			background-color: rgba(0, 0, 0, 0.2);
+			border: 2px solid #662900;
+			border border-radius: 50px;
+			padding: 9px 25px;
+
+		}
+		nav li a:hover{
+			color:#662900;
+		}
+		button:hover{
+			background-color: #662900;
+		}
+     .container{
+     	background-color: lightseagreen;
+     	padding: 50px;
+     	border-radius:10px;
+     	width:400px;
+     	border:5px solid #ff8080;
+     	box-shadow: 10px 10px 10px;
+     	margin-bottom: 100px;
+     	margin-left: 50px;
+     	margin-top: 50px;
+     }
+     h1{
+     	text-align: center;
+     	margin-top:0px ;
+     	margin-bottom: 40px;
+     	color:hotpink ;
+     	text-shadow: 10px 10px 10px;
+
+     }
+     .laxmi{
+     	margin-bottom: 20px;
+     }
+     label{
+     	display: block;
+     	font-weight:bold;
+     	margin-bottom: 5px;
+     	color:#555;
+     }
+    button{
+    	display: block;
+    	margin:auto;
+    	background-color:#ff3333 ;
+    	color:#fff;
+    	border: 2px solid skyblue;
+    	padding: 10px 20px;
+    	border-radius: 5px;
+    	font-size: 17px;
+    	box-shadow: 0 2px 5px rgba(0,0,0,0,5);
+    	cursor:pointer;
+    }
+    button:hover{
+    	background: green;
+    }
+
+	</style>
+</head>
+<body>
+	<header>
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="doctor.html">Home </a></li>
+					<li><a href="about.html ">About</a></li>
+					<li><a href="service.html">services </a></li>
+				
+					<li><a href="contect form2.html">contect</a></li>
+				</ul>
+			</nav>
+			<button><a href="APPINTMENT.HTML">Appointment</a></button>
+					
+		</header>
+	<div class="container">
+		<form>
+			<h1>APPOINTMENT FORM</h1>
+			<div class="laxmi">
+				<label>FIRST NAME:</label>
+				<input type="text" id="name" placeholder=" Enter your name "required>
+			</div>
+			<div class="laxmi">
+				<label>LAST NAME:</label>
+				<input type="text" id="name" placeholder=" Enter your name "required>
+			</div>
+			<div class="laxmi">
+				<label> EMAIL ADDRESS:</label>
+				<input type="text" id="email" placeholder="enter your email" required>
+			</div>
+			<div class="laxmi">
+				<label>PHONE NUMBER:</label>
+				<input type="text" id="subject" placeholder="Enter your subject"required>
+			</div>
+			<div class="laxmi">
+			<label>BOOKING DATE</label>
+			<input type="date" name=""><br>
+		</div>
+		<div class="laxmi">
+				<label>FEEDBACK:</label>
+				<textarea id="MESSAGE" placeholder="MESSAGE"></textarea>
+			</div>
+			<div class="laxmi">
+				<button>BOOK YOUR APPOINTMENT NOW</button>
+			</div>
+</div>
+</form>
+</body>
+</html>
